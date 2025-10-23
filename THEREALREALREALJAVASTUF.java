@@ -39,6 +39,11 @@ class Car extends Vehicle{
     private String nom;
     private float sel;
     public Car(int mop, double cpup, double atsp, String nomp, double selp){
-            super(mop,cpup, atsp,nomp, selp);
-            }
+        super(mop,cpup, atsp,nomp, selp);
+        mo = mop;
+            cpu = cpup;
+            ats = atsp;
+            nom = nomp;
+            sel = selp;
+    }
     }
